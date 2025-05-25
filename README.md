@@ -115,7 +115,7 @@ Energy $E_\tau(u) = P_{\text{idle},\tau} + (P_{\text{peak},\tau} - P_{\text{idle
 | SA-only      | 492,005.12 | 549.98   | 36.52       | 126,771.36 | 3,462      | 58.00    |
 | Hybrid GA+SA | 455,776.14 | 1,746.51 | 32.55       | 130,323.17 | 3,046      | 325.40   |
 
-Plots for each metric are in `results/plots/`. Convergence analysis shows the hybrid GA+SA cost dropping to 484,124.01 units by Generation 3 and reaching 455,776.14 units by Generation 100.
+Convergence analysis shows the hybrid GA+SA cost dropping to 484,124.01 units by Generation 3 and reaching 455,776.14 units by Generation 100.
 
 ---
 
