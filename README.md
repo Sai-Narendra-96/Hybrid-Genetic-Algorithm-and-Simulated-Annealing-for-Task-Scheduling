@@ -78,9 +78,9 @@ Additionally, we improved the accompanying research paper by adding citations to
   - `P_{idle,τ}`, `P_{peak,τ}`: idle/peak power (W)  
 
 - **Latency model**  
-  \[
-\text{Latency}(t_i, \tau) = \frac{w_i}{C_\tau} + L_{\text{src},\tau} + \frac{d_i}{B_{\text{src},\tau}}
-\]
+  $$
+\text{Latency}(t_i, \tau) = \frac{w_i}{C_\tau} + L_{st} + \frac{d_i}{B_{st}}
+$$
 
 - **Energy model**  
   Utilization $u_\tau = \frac{\sum w_i}{C_\tau}$.  
