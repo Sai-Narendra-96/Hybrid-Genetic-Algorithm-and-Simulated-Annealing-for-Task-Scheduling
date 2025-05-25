@@ -78,13 +78,8 @@ Additionally, we improved the accompanying research paper by adding citations to
   - `P_{idle,τ}`, `P_{peak,τ}`: idle/peak power (W)  
 
 - **Latency model**  
-  ![Latency formula](https://latex.codecogs.com/svg.image?
-  \displaystyle
-  \text{Latency}(t_i,\tau)
-  = \frac{w_i}{C_\tau}
-    + L_{st}
-    + \frac{d_i}{B_{st}}
-)
+  ![Latency formula](https://latex.codecogs.com/svg.image?%5Cdisplaystyle%20%5Ctext%7BLatency%7D%28t_i%2C%5Ctau%29%20%3D%20%5Cfrac%7Bw_i%7D%7BC_%5Ctau%7D%20%2B%20L_%7Bst%7D%20%2B%20%5Cfrac%7Bd_i%7D%7BB_%7Bst%7D%7D)
+
 
 - **Energy model**  
   Utilization $u_\tau = \frac{\sum w_i}{C_\tau}$.  
