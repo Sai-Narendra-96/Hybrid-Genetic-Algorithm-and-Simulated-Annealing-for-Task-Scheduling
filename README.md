@@ -78,23 +78,16 @@ Additionally, we improved the accompanying research paper by adding citations to
   - `P_{idle,τ}`, `P_{peak,τ}`: idle/peak power (W)  
 
 - **Latency model**  
-  \[
-    \text{Latency}(t_i,τ)
-    = \frac{w_i}{C_τ}
-    + L_{src→τ}
-    + \frac{d_i}{B_{src→τ}}
-  \]
+  $$
+\text{Latency}(t_i, \tau) = \frac{w_i}{C_\tau} + L_{\text{src} \to \tau} + \frac{d_i}{B_{\text{src} \to \tau}}
+$$
 
 - **Energy model**  
-  Utilization 
-  \(\displaystyle u_τ=\frac{\sum w_i}{C_τ}\).  
-  Energy 
-  \(\displaystyle E_τ(u)=P_{idle,τ}+(P_{peak,τ}-P_{idle,τ})\,u_τ\).
+  Utilization $u_\tau = \frac{\sum w_i}{C_\tau}$.  
+Energy $E_\tau(u) = P_{\text{idle},\tau} + (P_{\text{peak},\tau} - P_{\text{idle},\tau}) \cdot u_\tau$.
 
 - **Objective**  
-  Minimize 
-  \(\alpha\sum \text{Latency} + \beta\sum E\),  
-  with trade-off weights \(\alpha,\beta\).  
+  Minimize $\alpha \sum \text{Latency} + \beta \sum E$, with trade-off weights $\alpha, \beta$. 
 
 - **NP-Hardness**  
   The problem generalizes the Generalized Assignment Problem; exact search is \(\mathcal O(3^N)\).
