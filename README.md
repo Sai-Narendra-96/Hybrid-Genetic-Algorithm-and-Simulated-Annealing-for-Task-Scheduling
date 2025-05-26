@@ -39,27 +39,20 @@ Additionally, we improved the accompanying research paper by adding citations to
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/your-username/hybrid-ga-sa-scheduling.git
-   cd hybrid-ga-sa-scheduling
+   git clone https://github.com/Sai-Narendra-96/Hybrid-Genetic-Algorithm-and-Simulated-Annealing-for-Task-Scheduling.git
+   cd Hybrid-Genetic-Algorithm-and-Simulated-Annealing-for-Task-Scheduling
    ```
 
 2. **Create a Python environment**  
    ```bash
    python3 -m venv venv
    source venv/bin/activate
-   pip install -r requirements.txt
    ```
-   _Requirements:_ `pandas`, `numpy`, `matplotlib`
+   Requirements:_ `pandas`, `numpy`, `matplotlib`
 
 3. **Run the Jupyter notebooks** in `notebooks/` for step-by-step experiments:  
    ```bash
    jupyter lab
-   ```
-
-4. **Compile the paper** (if you have LaTeX installed):  
-   ```bash
-   cd paper
-   pdflatex main.tex
    ```
 
 ---
